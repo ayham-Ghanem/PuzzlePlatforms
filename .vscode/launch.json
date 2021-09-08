@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "PuzzlePlatforms (Debug)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatforms Win64 Debug Build",
+			"program": "A:\\Unreal Games\\1_Puzzle_Platforms-master\\PuzzlePlatforms\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "A:\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "A:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PuzzlePlatforms (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatforms Win64 DebugGame Build",
+			"program": "A:\\Unreal Games\\1_Puzzle_Platforms-master\\PuzzlePlatforms\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "A:\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "A:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PuzzlePlatforms (Development)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatforms Win64 Development Build",
+			"program": "A:\\Unreal Games\\1_Puzzle_Platforms-master\\PuzzlePlatforms\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "A:\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "A:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PuzzlePlatforms (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatforms Win64 Shipping Build",
+			"program": "A:\\Unreal Games\\1_Puzzle_Platforms-master\\PuzzlePlatforms\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "A:\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "A:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PuzzlePlatforms (Test)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatforms Win64 Test Build",
+			"program": "A:\\Unreal Games\\1_Puzzle_Platforms-master\\PuzzlePlatforms\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "A:\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "A:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PuzzlePlatformsEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatformsEditor Win64 Debug Build",
+			"program": "A:\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"A:\\Unreal Games\\1_Puzzle_Platforms-master\\PuzzlePlatforms\\PuzzlePlatforms.uproject"
+			],
+			"cwd": "A:\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "A:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PuzzlePlatformsEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatformsEditor Win64 DebugGame Build",
+			"program": "A:\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"A:\\Unreal Games\\1_Puzzle_Platforms-master\\PuzzlePlatforms\\PuzzlePlatforms.uproject"
+			],
+			"cwd": "A:\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "A:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PuzzlePlatformsEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "PuzzlePlatformsEditor Win64 Development Build",
+			"program": "A:\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"A:\\Unreal Games\\1_Puzzle_Platforms-master\\PuzzlePlatforms\\PuzzlePlatforms.uproject"
+			],
+			"cwd": "A:\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "A:\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "A:\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=A:\\Unreal Games\\1_Puzzle_Platforms-master\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "A:\\UE_4.27"
+		}
+	]
+}
